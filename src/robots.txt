@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /proyectos
+Allow: /contacto
+Allow: /servicios
+Allow: /
+Sitemap: https://arqmartin.com/sitemap.xml

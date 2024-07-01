@@ -1,20 +1,21 @@
 import PropTypes from 'prop-types';
+import '../css/dropdown.css';
 
-const Dropdown = ({ contenedorVisible, toggleContenedor, imgs, onCloseAnimation, lugar, tipo , descripcion }) => {
 
+const Dropdown = ({ contenedorVisible, toggleContenedor, imgs, onCloseAnimation, lugar, tipo, descripcion }) => {
     return (
-        <div className={`fixed bottom-0	left-0 w-full bg-white z-50 overflow-auto dropdown ${contenedorVisible && !onCloseAnimation ? "visible" : "dropdown-hidden"}`}>
-            <div className="flex flex-col">
-                <div className="dropdown-title flex w-full justify-between items-center p-16">
+        <div className={`dropdown ${contenedorVisible && !onCloseAnimation ? "dropdown-visible" : "dropdown-hidden"}`}>
+            <div className="dropdown-container">
+                <div className="dropdown-title">
                     <div>
-                        <h2 className='font-semibold tracking-normal' > {lugar} - {tipo}</h2>
-                        <p className='font-semibold tracking-normal' >{descripcion}</p>
+                        <h2>{lugar} - {tipo}</h2>
+                        <p>{descripcion}</p>
                     </div>
-                    <img className='cursor-pointer' onClick={toggleContenedor} src="./src/img/close.svg" alt="" />
+                    <img className="dropdown-close-icon" onClick={toggleContenedor} src="./src/img/close.svg" alt="Cerrar" />
                 </div>
-                <div className="flex flex-wrap w-full justify-around items-center">
+                <div className="dropdown-content">
                     {imgs.map((img, index) => (
-                        <img className='dropdownImg' key={index} src={img} alt={`imagen-${index}`} />
+                        <img className="dropdown-img" key={index} src={img} alt={`imagen-${index}`} />
                     ))}
                 </div>
             </div>
@@ -30,6 +31,6 @@ Dropdown.propTypes = {
     lugar: PropTypes.string.isRequired,
     tipo: PropTypes.string.isRequired,
     descripcion: PropTypes.string.isRequired,
-  };
+};
 
-export default Dropdown
+export default Dropdown;
