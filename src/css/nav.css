@@ -1,0 +1,110 @@
+*{
+    font-size: 10px;
+}
+
+.navActive{
+  font-size: 1.8rem;
+  color: #464d70;
+  text-decoration: underline;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  border-bottom: 2px solid #9CA3AF;
+}
+
+.instagram{
+  font-size: 1.8rem;
+  color: #ca5656;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  justify-content: center;
+  border-bottom: 2px solid #9CA3AF;
+}
+
+.navInactive{
+  font-size: 1.8rem;
+  color: #757575;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  border-bottom: 2px solid #9CA3AF;
+}
+
+.navInactive:hover {
+  color: #464d70  ;
+  text-decoration: underline;  
+}
+
+.navContact {
+  color: white;
+  font-size: 1.8rem;
+  background-color: #757575;
+  padding: 1rem;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.navContact:hover { 
+  text-decoration: underline;  
+}
+
+.navContactActive {
+  color: white;
+  font-size: 1.8rem;
+  background-color: #464d70;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.navName {
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  font-size: 1.2rem;
+  color: #464d70 
+}
+
+/*! ##### TABLETS & LARGER SMARTPHONES #####*/
+@media (min-width: 530px) {
+  .navActive{
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0;
+    border-bottom: none;
+  }
+  
+  .navInactive{
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0;
+    border-bottom: none;
+  }
+  
+  .navContact {
+    font-size: 2rem;
+  }
+  
+  .navContactActive {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  .instagram{
+    border-bottom: none;
+  }
+  
+
+}

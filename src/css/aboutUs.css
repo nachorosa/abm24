@@ -1,0 +1,89 @@
+*{
+    font-size: 10px;
+}
+
+.text1-8rem {
+    font-size: 1.8rem;
+}
+
+.height-2rem {
+    line-height: 2rem;
+} 
+
+.leading-2-4rem {
+    line-height: 2.4rem;
+}
+
+.lineHeight2-8rem {
+    line-height: 2.8rem;
+}
+
+.fontsize2rem {
+    font-size: 2rem;
+}
+
+.fontsize1-6rem {
+    font-size: 1.6rem;
+}
+
+.fontsize1-4rem{
+    font-size: 1.4rem;
+}
+
+.p-accordion-tab {
+    padding-bottom: 2rem;
+}
+
+.bg-btn{
+    background-color: #757575;
+}
+
+ .p-accordion-header-link {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 100%;
+ }
+
+ .p-accordion-toggle-icon {
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+.p-accordion-header-text {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.max-w-50rem {
+    max-width: 50rem;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+/*! ##### TABLETS & LARGER SMARTPHONES #####*/
+@media (min-width: 530px) {
+    
+    .md-w-45 {
+        width: 45%;
+    }
+        
+    .md-w-55 {
+        width: 55%;
+    }
+    
+    .maxHeight39rem {
+        max-height: 39rem;
+    }
+    
+    .md-minHeight65rem {
+        min-height: 65rem;
+    }
+}

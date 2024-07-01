@@ -1,0 +1,292 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* pc
+texto: 16px
+subtitulo: 20px
+titulo 32px */
+
+/* cel
+texto: 14px
+subtitulo: 16px
+titulo 20px */
+
+.color-text1 {color: #ffffff };
+.color-subtitle2 {color: #a1ac88 };
+.color-subtitle {color: #757575 };
+.color-title {color: #464d70 };
+.color-text2 {color: #000000 };
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-size: 10px;
+}
+
+.grid-img-1,
+.grid-img-2,
+.grid-img-3 {
+  width: 100%;
+  border-radius: 15px; /* Ajuste para bordes redondeados */
+  margin: 5px;  
+}
+
+.grid-img-full {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  justify-content: center; /* Ajuste para separar un poco los elementos */
+  padding: 20px 0;
+}
+
+.grid-img-full-1,
+.grid-img-full-2 {
+  margin: 5px 0;  
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 24%;
+}
+
+.grid-img-1,
+.grid-img-2,
+.grid-img-3,
+.grid-img-4,
+.grid-img-5,
+.grid-img-6 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Puedes ajustar esto según tus necesidades */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-img-1,
+.grid-img-2,
+.grid-img-3 {
+  height: 100%;
+  width: 100%;
+}
+
+.grid-img-1 {
+  background-image:url(/src/img/home/img1.jpg);
+}
+
+.grid-img-2 {
+  background-image:url(/src/img/home/img2.jpg);
+}
+
+.grid-img-3 {
+  background-image:url(/src/img/home/img3.jpg);
+}
+
+.grid-img-4 {
+  background-image:url(/src/img/home/img4.jpg);
+}
+
+.grid-img-5 {
+  background-image:url(/src/img/home/img5.jpg);
+}
+
+.grid-img-6 {
+  background-image:url(/src/img/home/img6.jpg);
+}
+
+
+.titlePage-container {
+  height: 50vh;
+  text-align: center;
+}
+
+.titlePage-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.titlePage-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.titlePage-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titlePage-text h1 {
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 3.2rem;
+  color: #464d70 
+}
+
+.titlePage-text h2 {
+  font-size: 2rem;
+  color: #757575 
+}
+
+.text-container {
+  display: flex;
+  margin: 10px; /* Agregar márgenes alrededor del contenedor principal */
+  align-items: center; /* Centrar los bloques de texto horizontalmente */
+  text-align: justify; /* Justificar el texto dentro de los bloques */
+  flex-direction: column;
+}
+
+.grid-text {
+  padding: 0 5%;
+  font-size: 20px;
+}
+
+/*! ############### LAPTOPS ###############*/
+@media (min-width: 950px) {
+ 
+.text-container {
+  flex-direction: row;
+}
+
+.grid-img-full {
+  flex-direction: row;
+}
+
+.grid-img-full-1,
+.grid-img-full-2 {
+  width: 35%;
+  height: 100%;
+}
+
+.grid-img-1 {
+  height: 46%;
+}
+
+.grid-img-2 {
+  height: 30%;
+}
+
+.grid-img-3 {
+  height: 24%;
+}
+
+}
+
+
+.text-block {
+  flex: 1;
+  margin: 25px;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+}
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+textarea{
+  resize: none;
+}
+
+#fixedButton {
+  position: fixed;
+  bottom: 15% ; 
+  right: 0 ;
+  z-index: 1000 ;
+  background-color: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  button {
+    background-color: #f9f9f9;  
+  }
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  /* Esto asegura que ocupe el 100% del alto de la pantalla */
+  background-color: #f8f8f8; /* Color de fondo blanco palido */
+}
+
+.spinner-container {
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco pálido con opacidad */
+  padding: 20px; /* Agrega un poco de espacio alrededor del spinner */
+  border-radius: 8px; /* Ajusta según sea necesario */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7); /* Fondo blanco semitransparente para el efecto de desenfoque */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlaySpinner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 1); /* Fondo blanco semitransparente para el efecto de desenfoque */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
