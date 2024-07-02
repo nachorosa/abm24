@@ -7,10 +7,13 @@
     "imageSrc": "/src/img/project/cube/cube.jpg",
     "imageAlt": "cube",
     "folder": "/src/img/project/cube/",
-    "imageRange": { "start": 1, "end": 10 },
+    "imageRange": {
+      "start": 1,
+      "end": 11
+    },
     "descripcion": "casa llave en mano, en escobar, barrio privado Cube."
   },
-    {
+  {
     "id": 2,
     "lugar": "Casa en El Canton",
     "tipo": "Obra",
@@ -18,10 +21,13 @@
     "imageSrc": "/src/img/project/elcanton1/elcanton1.jpg",
     "imageAlt": "",
     "folder": "/src/img/project/elcanton1/",
-    "imageRange": { "start": 1, "end": 10 },
+    "imageRange": {
+      "start": 1,
+      "end": 4
+    },
     "descripcion": "Casa llave en mano, en barrio cerrado el canton, Golf. escobar."
   },
-      {
+  {
     "id": 3,
     "lugar": "Casa en Santa Isabel",
     "tipo": "Obra",
@@ -29,21 +35,28 @@
     "imageSrc": "/src/img/project/santaisabel/santaisabel.jpg",
     "imageAlt": "",
     "folder": "/src/img/project/santaisabel/",
-    "imageRange": { "start": 1, "end": 10 },
+    "imageRange": {
+      "start": 1,
+      "end": 12
+    },
     "descripcion": "Casa llave en mano, en barrio cerrado Santa Isabel, Etapa 1, escobar."
   },
-      {
+  {
     "id": 4,
-    "lugar": "El canton",
-    "tipo": "Pileta",
+    "lugar": "Villa Lynch",
+    "tipo": "Obra",
     "href": "#",
-    "imageSrc": "/src/img/project/pileta1/pileta1.jpg",
+    "imageSrc": "/src/img/project/villalynch/villalynch.jpg",
     "imageAlt": "",
-    "folder": "/src/img/project/pileta1/",
-    "imageRange": { "start": 1, "end": 10 },
-    "descripcion": "pileta realizada en barrio cerrado el canton. escobar."
+    "folder": "/src/img/project/villalynch/",
+    "imageRange": {
+      "start": 1,
+      "end": 9
+    },
+    "descripcion": "Obra realizada. Duplex en Villa Lynch."
   },
-      {
+
+  {
     "id": 5,
     "lugar": "Villa del Parque",
     "tipo": "Obra",
@@ -51,151 +64,192 @@
     "imageSrc": "/src/img/project/argerich/argerich.jpg",
     "imageAlt": "",
     "folder": "/src/img/project/argerich/",
-    "imageRange": { "start": 1, "end": 10 },
+    "imageRange": {
+      "start": 1,
+      "end": 16
+    },
     "descripcion": "Edificio realizado sobre la calle Argerich."
   },
-      {
+  {
     "id": 6,
+    "lugar": "El canton",
+    "tipo": "Pileta",
+    "href": "#",
+    "imageSrc": "/src/img/project/pileta1/pileta1.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/pileta1/",
+    "imageRange": {
+      "start": 1,
+      "end": 6
+    },
+    "descripcion": "pileta realizada en barrio cerrado el canton. escobar."
+  },
+  {
+    "id": 7,
     "lugar": "Nordelta",
     "tipo": "Obra",
     "href": "#",
     "imageSrc": "/src/img/project/nordelta/nordelta.jpg",
     "imageAlt": "",
     "folder": "/src/img/project/nordelta/",
-    "imageRange": { "start": 1, "end": 10 },
+    "imageRange": {
+      "start": 1,
+      "end": 4
+    },
     "descripcion": "Casa llave en Mano, en barrio cerrado, nordelta. tigre."
   },
   {
-"id": 7,
-"lugar": "El Canton",
-"tipo": "Obra",
-"href": "#",
-"imageSrc": "/src/img/project/elcanton2/elcanton2.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/elcanton2/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Casa llave en Mano, en barrio cerrado El canton - Puertos, Escobar."
-},
-{
-"id": 8,
-"lugar": "El canton",
-"tipo": "Pileta",
-"href": "#",
-"imageSrc": "/src/img/project/pileta2/pileta2.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/pileta2/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Pileta realizada en el barrio Puerto - El canton, Escobar."
-},
-{
-"id": 9,
-"lugar": "El canton",
-"tipo": "Pileta",
-"href": "#",
-"imageSrc": "/src/img/project/pileta3/pileta3.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/pileta3/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Pileta realizada en el barrio Norte - El canton, Escobar."
-},
-{
-"id": 10,
-"lugar": "Pilar",
-"tipo": "Proyecto",
-"href": "#",
-"imageSrc": "/src/img/project/pilar/pilar.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/pilar/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Proyecto remodelacion en Fatima - Pilar."
-},
-{
-"id": 11,
-"lugar": "San Andres",
-"tipo": "Obra",
-"href": "#",
-"imageSrc": "/src/img/project/sanandres/sanandres.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/sanandres/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Casa llave en Mano, en Gral San Martin."
-},
-{
-"id": 12,
-"lugar": "Caseros",
-"tipo": "Remodelacion",
-"href": "#",
-"imageSrc": "/src/img/project/caseros/caseros.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/caseros/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Proyecto realizado de remodelacion en caseros."
-},
-{
-"id": 13,
-"lugar": "San Martin",
-"tipo": "Remodelacion",
-"href": "#",
-"imageSrc": "/src/img/project/sanandres2/sanandres2.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/sanandres2/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Proyecto realizado de remodelacion de baño en san andres."
-},
-{
-"id": 13,
-"lugar": "San Andres",
-"tipo": "Ampliacion",
-"href": "#",
-"imageSrc": "/src/img/project/sanandres3/sanandres3.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/sanandres3/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Proyecto de ampliacion."
-},
-{
-"id": 14,
-"lugar": "San Andres",
-"tipo": "Obra",
-"href": "#",
-"imageSrc": "/src/img/project/sanandres4/sanandres4.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/sanandres4/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Proyecto obra. casa en san andres."
-},
-{
-"id": 15,
-"lugar": "San Martin",
-"tipo": "Obra",
-"href": "#",
-"imageSrc": "/src/img/project/locales/locales.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/locales/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Obra realizada, Locales en San Martin Centro."
-},
-{
-"id": 16,
-"lugar": "Villa Lynch",
-"tipo": "Obra",
-"href": "#",
-"imageSrc": "/src/img/project/villalynch/villalynch.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/villalynch/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Obra realizada. Duplex en Villa Lynch."
-},
-{
-"id": 17,
-"lugar": "Villa Maipu",
-"tipo": "Obra",
-"href": "#",
-"imageSrc": "/src/img/project/villamaipu/villamaipu.jpg",
-"imageAlt": "",
-"folder": "/src/img/project/villamaipu/",
-"imageRange": { "start": 1, "end": 10 },
-"descripcion": "Obra realizada."
-}
-  
+    "id": 8,
+    "lugar": "El Canton",
+    "tipo": "Obra",
+    "href": "#",
+    "imageSrc": "/src/img/project/elcanton2/elcanton2.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/elcanton2/",
+    "imageRange": {
+      "start": 1,
+      "end": 3
+    },
+    "descripcion": "Casa llave en Mano, en barrio cerrado El canton - Puertos, Escobar."
+  },
+  {
+    "id": 9,
+    "lugar": "San Andres",
+    "tipo": "Obra",
+    "href": "#",
+    "imageSrc": "/src/img/project/sanandres/sanandres.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/sanandres/",
+    "imageRange": {
+      "start": 1,
+      "end": 3
+    },
+    "descripcion": "Casa llave en Mano, en Gral San Martin."
+  },
+  {
+    "id": 10,
+    "lugar": "Caseros",
+    "tipo": "Remodelacion",
+    "href": "#",
+    "imageSrc": "/src/img/project/caseros/caseros.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/caseros/",
+    "imageRange": {
+      "start": 1,
+      "end": 12
+    },
+    "descripcion": "Proyecto realizado de remodelacion en caseros."
+  },
+  {
+    "id": 11,
+    "lugar": "Pilar",
+    "tipo": "Proyecto",
+    "href": "#",
+    "imageSrc": "/src/img/project/pilar/pilar.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/pilar/",
+    "imageRange": {
+      "start": 1,
+      "end": 5
+    },
+    "descripcion": "Proyecto remodelacion en Fatima - Pilar."
+  },
+  {
+    "id": 12,
+    "lugar": "El canton",
+    "tipo": "Pileta",
+    "href": "#",
+    "imageSrc": "/src/img/project/pileta2/pileta2.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/pileta2/",
+    "imageRange": {
+      "start": 1,
+      "end": 7
+    },
+    "descripcion": "Pileta realizada en el barrio Puerto - El canton, Escobar."
+  },
+  {
+    "id": 13,
+    "lugar": "San Martin",
+    "tipo": "Obra",
+    "href": "#",
+    "imageSrc": "/src/img/project/locales/locales.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/locales/",
+    "imageRange": {
+      "start": 1,
+      "end": 8
+    },
+    "descripcion": "Obra realizada, Locales en San Martin Centro."
+  },
+  {
+    "id": 14,
+    "lugar": "San Andres",
+    "tipo": "Ampliacion",
+    "href": "#",
+    "imageSrc": "/src/img/project/sanandres3/sanandres3.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/sanandres3/",
+    "imageRange": {
+      "start": 1,
+      "end": 6
+    },
+    "descripcion": "Proyecto de ampliacion."
+  },
+  {
+    "id": 15,
+    "lugar": "San Andres",
+    "tipo": "Obra",
+    "href": "#",
+    "imageSrc": "/src/img/project/sanandres4/sanandres4.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/sanandres4/",
+    "imageRange": {
+      "start": 1,
+      "end": 10
+    },
+    "descripcion": "Proyecto obra. casa en san andres."
+  },
+  {
+    "id": 16,
+    "lugar": "Villa Maipu",
+    "tipo": "Obra",
+    "href": "#",
+    "imageSrc": "/src/img/project/villamaipu/villamaipu.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/villamaipu/",
+    "imageRange": {
+      "start": 1,
+      "end": 6
+    },
+    "descripcion": "Obra realizada."
+  },
+  {
+    "id": 17,
+    "lugar": "San Martin",
+    "tipo": "Remodelacion",
+    "href": "#",
+    "imageSrc": "/src/img/project/sanandres2/sanandres2.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/sanandres2/",
+    "imageRange": {
+      "start": 1,
+      "end": 5
+    },
+    "descripcion": "Proyecto realizado de remodelacion de baño en san andres."
+  },
+  {
+    "id": 18,
+    "lugar": "El canton",
+    "tipo": "Pileta",
+    "href": "#",
+    "imageSrc": "/src/img/project/pileta3/pileta3.jpg",
+    "imageAlt": "",
+    "folder": "/src/img/project/pileta3/",
+    "imageRange": {
+      "start": 1,
+      "end": 5
+    },
+    "descripcion": "Pileta realizada en el barrio Norte - El canton, Escobar."
+  }
 ]
